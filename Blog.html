@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog</title>
+</head>
+<style>
+
+
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    background: linear-gradient(to right, #3525af, #9153c9);
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 60px;
+    background-color:#1a1a1a;
+    box-shadow: 2px 2px 12px rgba(0,0,0,0.2);
+    padding: 0px 5%;
+}
+nav a:hover{
+    background: #FFFFFF;
+    color: #1a1a1a;
+}
+nav ul{
+    display: flex;
+}
+nav ul li a{
+    margin:30px;
+    font-family: Arial, Helvetica, sans-serif;
+    color:#FFFFFF;
+    font-size: 15px;
+    font-weight: 700;
+}
+.logo{
+    font-family: Calibri;
+    color:#FFFFFF;
+    font-size: 22px;
+}
+.container{
+    max-width: 1200px;
+    margin:auto;
+    background:#1a1a1a;
+    overflow: auto;
+}
+.gallery{
+    margin: 5px;
+    border: 1px solid #cccccc;
+    float: left;
+    width: 390px;
+}
+.gallery img{
+    width: 100%;
+    height: auto;
+}
+.description{
+    background-color:black;
+    font-family: calibri;
+    color: #FFFFFF;
+    padding: 15px;
+    text-align: center; 
+    font-size: large;
+}
+
+
+
+
+</style>
+<body>
+    <section>
+        <nav>
+            <a href="#" class="logo">My Blog</a>
+    
+            <ul>
+            <li><a href="index.html" class="active">Home</a></li>
+            <li><a href="Portfolio.html">Resume</a></li>
+            <li><a href="Blog.html">Blog</a></li>
+            <li><a href="Contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </section>
+
+    <div class="container">
+        <div class="gallery">
+            <img src="../Wk04-CreateRepo/pictures/PaintingArt.JPG">
+            <div class="description">This is a painting design that i have completed</div>
+        </div>
+        <div class="gallery">
+            <img src="../Wk04-CreateRepo/pictures/MobileAppPaintingArt.JPG">
+            <div class="description"> This is a mobile application opening screen that i design for my painting</div>
+        </div>
+        <div class="gallery">
+            <img src="../Wk04-CreateRepo/pictures/MobileAppPaintingArtPoster.JPG">
+            <div class="description"> This is a poster that i design to promote the features of the mobile application</div>
+        </div>
+        <div class="gallery">
+            <img src="../Wk04-CreateRepo/pictures/PythonRatGame.JPG">
+            <div class="description"> This is a Rat Game that i have coded where the hero needs to defeat the rat king to win the game</div>
+        </div>
+        <div class="gallery">
+            <img src="../Wk04-CreateRepo/pictures/Wannacry Website.JPG">
+            <div class="description"> This is the webpage that i have created to raise awareness of how dangerous Wannakry Ransomware works</div>
+        </div>
+        <div class="gallery">
+            <img src="../Wk04-CreateRepo/pictures/HealthApp.JPG">
+            <div class="description"> This is a prototype of a health app mobile applications that i have created</div>
+        </div>
+    
+</body>
+</html>

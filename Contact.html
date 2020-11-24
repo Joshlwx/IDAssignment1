@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+</head>
+
+<style>
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 60px;
+    background-color:#1a1a1a;
+    box-shadow: 2px 2px 12px rgba(0,0,0,0.2);
+    padding: 0px 5%;
+}
+nav a:hover{
+    background: #FFFFFF;
+    color: #1a1a1a;
+}
+nav ul{
+    display: flex;
+}
+nav ul li a{
+    margin:30px;
+    font-family: Arial, Helvetica, sans-serif;
+    color:#FFFFFF;
+    font-size: 15px;
+    font-weight: 700;
+}
+.logo{
+    font-family: Calibri;
+    color:#FFFFFF;
+    font-size: 22px;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    font-family: calibri;
+}
+body{
+    margin: 0;
+    padding: 0;
+    background-size: cover;
+    background: linear-gradient(to right, #3525af, #9153c9);
+}
+.contact-form{
+    width: 85%;
+    max-width: 600px;
+    background: #FFFFFF;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    padding: 30px 40px;
+    box-sizing: border-box;
+    border-radius: 8px;
+    text-align: center;
+    box-shadow: 0 0 20px #000000;
+}
+.contact-form h1{
+    font-weight: bold;
+    margin-top: 0;
+}
+.text-btn{
+    border:1px solid black;
+    margin: 8px 0;
+    padding: 12px 18px;
+    border-radius: 8px;
+    font-weight: bold;
+}
+.submit-btn{
+    border:1px solid black;
+    margin: 8px 0;
+    padding: 12px 18px;
+    border-radius: 8px;
+    font-weight: bold;
+    background: linear-gradient(to right, #3525af, #9153c9);
+}
+.text-btn label{
+    display: block;
+    text-align: left;
+    color: #333333;
+    text-transform: uppercase;
+    font-size: 14px;
+}
+.text-btn input,.text-btn textarea{
+    width: 100%;
+    border: none;
+    background: none;
+    outline: none;
+    font-size: 18px;
+    margin-top: 6px;
+}
+
+input[type="submit"]{
+    display: block;
+    margin: 0 auto;
+    width: 150px;
+    text-align: center;
+    cursor: pointer;
+    color:black;
+
+}
+input[type="submit"]:hover{
+    background: black;
+    color: #FFFFFF;
+}
+</style>
+
+<body>
+
+    <section>
+        <nav>
+        <a href="#" class="logo">Contact Me</a>
+
+        <ul>
+        <li><a href="index.html" class="active">Home</a></li>
+        <li><a href="Portfolio.html">Resume</a></li>
+        <li><a href="Blog.html">Blog</a></li>
+        <li><a href="Contact.html">Contact</a></li>
+        </ul>
+        </nav>
+        <div class="contact-form">
+            <form action="">
+                <h1>Enter your information</h1>
+                <div class="text-btn">
+                      <label>Full Name :</label>
+                      <input type="text" placeholder="Enter your name" name="Name" required 
+                      oninvalid="this.setCustomValidity('Please enter your name')" 
+                      oninput="this.setCustomValidity('')">
+                    </div>
+                    <div class="text-btn">
+                        <label>Email :</label>
+                        <input type="email" placeholder="Enter your email" name="email" required
+                        oninvalid="this.setCustomValidity('Please enter your email')" 
+                        oninput="this.setCustomValidity('')">
+                    </div>
+                    <div class="text-btn">
+                        <label>Phone Number :</label>
+                        <input type="tel" placeholder="Enter your number" name="phone" required
+                        oninvalid="this.setCustomValidity('Please enter your phone number')" 
+                        oninput="this.setCustomValidity('')">
+                    </div>
+                    <div class="text-btn">
+                        <label>Message :</label>
+                        <textarea placeholder="Type NIL if you do not have anything to message" name="Message" required
+                        oninvalid="this.setCustomValidity('Please fill in the message')" 
+                        oninput="this.setCustomValidity('')"></textarea>
+                    </div>
+                    <div class="submit-btn">
+                        <input type="submit" value="SUBMIT">
+                    </div>
+            </form>
+        </div>
+    </section>
+</body>
