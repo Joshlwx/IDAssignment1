@@ -4,204 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Resume</title>
+    <link href="../Wk04-CreateRepo/css/portfolio.css" rel="stylesheet" type="text/css">
 </head>
-
-<style>
-nav{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    height: 60px;
-    background-color:#1a1a1a;
-    box-shadow: 2px 2px 12px rgba(0,0,0,0.2);
-    padding: 0px 5%;
-}
-nav a:hover{
-    background: #FFFFFF;
-    color: #1a1a1a;
-}
-nav ul{
-    display: flex;
-}
-nav ul li a{
-    margin:30px;
-    font-family: Arial, Helvetica, sans-serif;
-    color:#FFFFFF;
-    font-size: 15px;
-    font-weight: 700;
-}
-.logo{
-    font-family: Calibri;
-    color:#FFFFFF;
-    font-size: 22px;
-}
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    list-style: none;
-    font-family: calibri;
-}
-
-body{
-    background: linear-gradient(to right, #3525af, #9153c9);
-}
-.resume{
-    width: 800px;
-    background:#fff;
-    margin: 25px auto;
-    display: flex;
-}
-.left{
-    background:#1a1a1a;
-    width: 250px;
-    padding: 0 20px;
-}
-.right{
-    width: calc(100% - 250px);
-}
-.left .img_holder{
-    text-align: center;
-    padding: 20px 0;
-}
-.left .img_holder img{
-    width: 200px;
-    border-radius: 30px;
-}
-.pb{
-    padding-bottom: 20px;
-}
-.title{
-    font-size: 24px;
-    font-weight: 700;
-    text-transform: uppercase;
-    letter-spacing: 5px;
-    padding-bottom: 10px;
-    color:#9153c9;
-    position: relative;
-    text-align: right;
-    margin-bottom: 15px;
-}
-.title:before{
-    content: "";
-    position: absolute;
-    top: 35px;
-    right: 0;
-    width: 50px;
-    height: 3px;
-    background:#9153c9;
-}
-.left .text{
-    color: #9153c9;
-    text-transform: uppercase;
-    font-size: 16px;
-}
-.skills ul,
-.hobbies ul{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-}
-.skills .li_wrap,
-.hobbies .li_wrap{
-    width: 75px;
-    height: 75px;
-    margin-bottom: 15px;
-    border-radius: 15px;
-    border: 2px solid #fff;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-}
-.skills .li_wrap .text,
-.hobbies .li_wrap .text{
-    margin-top: 5px;
-}
-.skills .li_wrap .text,
-.hobbies .li_wrap .text{
-    color: #fff;
-}
-.skills .li_wrap:hover,
-.hobbies .li_wrap:hover{
-    background: #fff;
-}
-.skills .li_wrap:hover .text,
-.hobbies .li_wrap:hover .text{
-    color: #9153c9;
-}
-
-.header{
-    background:#1a1a1a;
-    padding: 15px 30px;
-    color: #fff;
-    height: 240px;
-}
-.header .name{
-    font-size: 52px;
-    text-transform: uppercase;
-    font-weight: 700;
-    color:#FFFFFF;
-}
-.header .role{
-    font-weight: 300;
-    font-size: 20px;
-}
-.header .about{
-    margin-top: 20px;
-    line-height: 26px;
-}
-.right_inner .education{
-    margin-top: 30px;
-}
-.right_inner .li_wrap{
-    display: flex;
-    margin-bottom: 15px;
-}
-.right_inner .li_wrap .date{
-    width: 125px;
-    color:#9153c9;
-    text-align: center;
-    font-weight: bold;
-}
-.right_inner .li_wrap .info{
-    width: calc(100% - 125px);
-    padding-left: 25px;
-    position: relative;
-}
-.right_inner .li_wrap .info_title{
-    text-transform: uppercase;
-    font-weight: 700;
-    letter-spacing: 2px;
-    color: #9153c9;
-}
-.right_inner .li_wrap .info_com{
-    font-size: 14px;
-    margin-top: 3px;
-}
-.right_inner .li_wrap .info_cont{
-    margin-top: 15px;
-}
-.right_inner .li_wrap .info:before{
-    content: "";
-    position: absolute;
-    top: 3px;
-    left: 0;
-    width: 10px;
-    height: 10px;
-    background: #9153c9;
-    border-radius: 50%;
-}
-.right_inner .li_wrap .info:after{
-    content: "";
-    position: absolute;
-    top: 10px;
-    left: 4px;
-    width: 2px;
-    height: 90%;
-    background: #9153c9;
-}   
-</style>
 
 <body>
     <section>
@@ -220,7 +24,7 @@ body{
         <div class="resume">
             <div class="left">
                 <div class="img_holder">
-                    <img src="resume.jpg" alt="picture">
+                    <img src="./pictures/resume.jpg" alt="picture">
                 </div>
                 <div class="skills_wrap pb">
                     <div class="title">
@@ -292,7 +96,7 @@ body{
                         </div>
                     </div>
                     <div class="about">
-                            "Push Yourself Because No One Else Is Going To Do It For You.""  
+                            "Push Yourself Because No One Else Is Going To Do It For You." 
                     </div>
                 </div>
                 <div class="right_inner">
@@ -367,7 +171,7 @@ body{
                                                     <div class="info">
                                                         <p class="info_title">N Level</p>
                                                         <p class="info-com">Greenridge Secondary School</p>
-                                                        <p class="info_cont">I learned Math, Science, English and Designing</p>
+                                                        <p class="info_cont">I learned Math, Science, English, Design & Technology</p>
                                                     </div>
                                                 </div>
                                             </li>
@@ -377,7 +181,7 @@ body{
                                                     <div class="info">
                                                         <p class="info_title">PSLE</p>
                                                         <p class="info-com">Greenridge Primary School</p>
-                                                        <p class="info_cont">I learned basic Math, English and Chinese</p>
+                                                        <p class="info_cont">I learned basic funda,entals of Math, English & Chinese</p>
                                                     </div>
                                                 </div>
                                             </li>
