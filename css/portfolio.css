@@ -73,7 +73,8 @@ body{
     color:#9153c9;
     position: relative;
     text-align: right;
-    margin-bottom: 15px;
+    margin-bottom: 25px;
+    margin-top: 20px;
 }
 .title:before{
     content: "";
@@ -89,15 +90,15 @@ body{
     text-transform: uppercase;
     font-size: 16px;
 }
-.skills ul,
-.hobbies ul{
+.skills,
+.hobbies{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
 }
-.skills .li_wrap,
-.hobbies .li_wrap{
-    width: 75px;
+.skills .wrap,
+.hobbies .wrap{
+    width: 95px;
     height: 75px;
     margin-bottom: 15px;
     border-radius: 15px;
@@ -107,20 +108,20 @@ body{
     align-items: center;
     justify-content: center;
 }
-.skills .li_wrap .text,
-.hobbies .li_wrap .text{
+.skills .wrap .text,
+.hobbies .wrap .text{
     margin-top: 5px;
 }
-.skills .li_wrap .text,
-.hobbies .li_wrap .text{
+.skills .wrap .text,
+.hobbies .wrap .text{
     color: #fff;
 }
-.skills .li_wrap:hover,
-.hobbies .li_wrap:hover{
+.skills .wrap:hover,
+.hobbies .wrap:hover{
     background: #fff;
 }
-.skills .li_wrap:hover .text,
-.hobbies .li_wrap:hover .text{
+.skills .wrap:hover .text,
+.hobbies .wrap:hover .text{
     color: #9153c9;
 }
 
@@ -147,35 +148,35 @@ body{
 .right_inner .education{
     margin-top: 30px;
 }
-.right_inner .li_wrap{
+.right_inner .wrap{
     display: flex;
-    margin-bottom: 15px;
+    margin-bottom: 25px;
 }
-.right_inner .li_wrap .date{
+.right_inner .wrap .date{
     width: 125px;
     color:#9153c9;
     text-align: center;
     font-weight: bold;
 }
-.right_inner .li_wrap .info{
+.right_inner .wrap .info{
     width: calc(100% - 125px);
     padding-left: 25px;
     position: relative;
 }
-.right_inner .li_wrap .info_title{
+.right_inner .wrap .info_title{
     text-transform: uppercase;
     font-weight: 700;
     letter-spacing: 2px;
     color: #9153c9;
 }
-.right_inner .li_wrap .info_com{
+.right_inner .wrap .info_com{
     font-size: 14px;
     margin-top: 3px;
 }
-.right_inner .li_wrap .info_cont{
+.right_inner .wrap .info_cont{
     margin-top: 15px;
 }
-.right_inner .li_wrap .info:before{
+.right_inner .wrap .info:before{
     content: "";
     position: absolute;
     top: 3px;
@@ -185,7 +186,7 @@ body{
     background: #9153c9;
     border-radius: 50%;
 }
-.right_inner .li_wrap .info:after{
+.right_inner .wrap .info:after{
     content: "";
     position: absolute;
     top: 10px;
