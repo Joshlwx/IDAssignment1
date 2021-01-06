@@ -1,6 +1,6 @@
 # ID_S10208533_Joshua_Assg1
 
-Github Link: https://joshlwx.github.io/IDAssignment_1/
+Github Link: https://joshlwx.github.io/IDAssignment1/
 
 For this project, I am doing a Portfolio Webpge which consist of my resume, blog and contact. For my resume, I include my strengths, work and school experiences as well as my certifications throughout my journey.
 
