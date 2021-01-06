@@ -1,4 +1,4 @@
-# ID_S10208533_Joshua_Assg1
+# ID_S10208533_Joshua_Assignment1
 
 Github Link: https://joshlwx.github.io/IDAssignment1/
 
